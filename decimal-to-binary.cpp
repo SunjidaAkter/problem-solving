@@ -30,7 +30,7 @@ int i=0;
 while(n!=0){
     int bit=n&1;
     cout<<bit<<endl;
-    ans=(bit*pow(10,i))+ans;
+    ans=(bit*pow(10,i))+ans;//reverse flow method and the same flow method (if needed) is ans=(ans*10)+digit 
     i++;
     n=n>>1;
 }
