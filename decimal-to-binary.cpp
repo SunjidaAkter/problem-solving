@@ -35,6 +35,6 @@ while(n!=0){
     n=n>>1;
 }
 cout<<ans;
-    
+return 0;    
     
 }
