@@ -7,8 +7,6 @@ bool rec(int arr[], int t, int size) {
     // char a="false";
     return false;
   }
-
-
   if (arr[size] == t) {
     // char b="true";
     return true;
@@ -23,7 +21,7 @@ int main()
    int size = end(arr)-begin(arr);
    int t= 7;
    if(rec(arr, t, 5)==0){
-   cout<<"false"<<endl;
+    cout<<"false"<<endl;
    }else if(rec(arr, t, 5)==1){
      cout<<"true"<<endl;
    }
